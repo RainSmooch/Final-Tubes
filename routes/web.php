@@ -28,3 +28,10 @@ Route::post('register/action', [RegisterController::class, 'actionregister'])->n
 
 Route::get('/reset-password', [ResetPassController::class, 'showResetForm'])->name('reset.password.form');
 Route::post('/reset-password', [ResetPassController::class, 'resetPassword'])->name('reset.password');
+
+Route::get('/materi', function () {
+    return view('materi');
+});
+Route::get('/contact', function () {
+    return view('kontak');
+});

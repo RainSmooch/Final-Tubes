@@ -1,5 +1,5 @@
-@extends('layout.tampilberanda')
-@section('title', 'ITech Materi Belajar')
+@extends('layout.master')
+@section('title', 'ITech - Materi Belajar')
 
 @section('content')
 
@@ -24,6 +24,7 @@
                     </div>
                 </div>
         </section>
+
         <section style="background-color: #7598CF; padding: 50px">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
@@ -95,6 +96,7 @@
                 </a>
             </div>
         </section>
+
         <section id="soal" style="padding: 3rem;">
             <div class="container text-center">
                 <div class="row justify-content-center styleLayanan">
@@ -108,7 +110,7 @@
                     </div>
                 </div>
         </section>
-        <section>
+        <section style="background-color: #7598CF; padding: 50px">
             <div id="carouselSoalControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">

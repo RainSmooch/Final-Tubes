@@ -43,7 +43,7 @@
                     <div class="col-md-4 col-sm-6 stylecolLayanan imgicon">
                         <img src="bukuIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
                         <h6 class="teksicon">Materi Belajar</h6>
-                        <a href="/materibelajar" style="text-decoration: none; color: blue;" class="teksicon">Read More</a>
+                        <a href="/materi" style="text-decoration: none; color: blue;" class="teksicon">Read More</a>
                     </div>
 
                     <div class="col-md-4 col-sm-6 stylecolLayanan imgicon">

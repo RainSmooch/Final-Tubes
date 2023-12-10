@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-md navbar-light"
         style="background-color: #7598CF; position: sticky; top: 0; z-index: 1000;  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); ">
         <div class="container">
-            <a class="navbar-brand" href="/dashboard#">
+            <a class="navbar-brand" href="/home#">
                 <img src="logo ITech header.png" alt="Logo ITech" class="d-inline-block align-text-top imghead">
                 <span style="font-weight: bold;">ITech</span>
             </a>
@@ -30,10 +30,10 @@
             <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/dashboard#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/home#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/dashboard#tentangKami">Tentang Kami</a>
+                        <a class="nav-link" href="/home#tentangKami">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact">Contact</a>
