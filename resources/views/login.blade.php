@@ -28,11 +28,13 @@
                         <input type="password" name="password" id="password" placeholder="Password" required>
                     </div>
                 </div>
+                <a class="text" style="text-align: right" href="/reset-password">Lupa Password?</a>
 
                 <button type="submit" class="btn btn-primary btn-block" style="font-family: 'Poppins', sans-serif;">Log
                     In</button>
                 <hr>
-                <a class="text" style="text-align: center" href="/register">Belum Punya Akun? Daftar</a>
+                <a class="text" style="text-align: center" href="/register">Belum Punya Akun? Daftar!</a>
+
             </form>
         </div>
     </div>
