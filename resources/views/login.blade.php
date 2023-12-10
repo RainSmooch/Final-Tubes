@@ -5,8 +5,6 @@
         <div class="img">
             <img src="login.png" alt="Login">
         </div>
-
-
         <div class="login-content">
             <form action="/login" method="post">
                 @csrf
@@ -35,15 +33,6 @@
                     In</button>
                 <hr>
                 <a class="text" style="text-align: center" href="/register">Belum Punya Akun? Daftar</a>
-                @if ($errors->any())
-                <div role="alert">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
             </form>
         </div>
     </div>

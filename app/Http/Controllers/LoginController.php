@@ -30,11 +30,6 @@ class LoginController extends Controller
 
             return redirect()->intended('home');
         }
-
-        return redirect()->back()->withInput()->withErrors([
-            'email' => 'Email atau Password salah',
-        ]);
-
     }
 
     public function actionlogout()
